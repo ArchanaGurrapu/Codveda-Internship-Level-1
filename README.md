@@ -13,8 +13,6 @@ The program gives feedback like “Too High” or “Too Low” until the correc
 This improved my understanding of loops, conditional statements, and the random module.
 
 
-Number Guessing Game
-
 import random
 
 chosen_number = random.randint(1,100)
@@ -39,4 +37,3 @@ while attempts < max_attempts:
         break
 else:
     print(f"Sorry! You used all the attempts. The number was {chosen_number}.")
- 
